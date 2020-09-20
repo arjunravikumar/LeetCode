@@ -46,3 +46,10 @@ var myAtoi = function(str) {
         else
         {
             if(num>(Math.pow(2,31)-1))
+            {
+                num = Math.pow(2,31)-1;
+            }
+            return num;
+        }
+    }
+};
